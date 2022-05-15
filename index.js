@@ -15,3 +15,5 @@
 //  git reset HEAD 要移除暂存区的文件名称
 //  git commit -a 自动把跟踪文件暂存起来一并提交 跳过暂存区
 //  是git add和git commit的符合写法  git commit -a -m '增加html内容和css背景颜色和js注释内容'
+//  移除文件： 1.从git仓库和工作区中同时移除对应文件 git rm -f 文件名  (rm remove的意思 f force强制的意思)
+//            2.从仓库移除对应文件 保留工作区的对应文件 git rm --cached 文件名
