@@ -18,4 +18,9 @@
 //  移除文件： 1.从git仓库和工作区中同时移除对应文件 git rm -f 文件名  (rm remove的意思 f force强制的意思)
 //            2.从仓库移除对应文件 保留工作区的对应文件 git rm --cached 文件名
 //  忽略文件:创建.gitignore配置文件 列出要忽略文件的匹配模式
-//  
+//  回顾历史 git log
+//  格式  git log -? 显示几行
+//       git log -2 --pretty=oneline  两次历史一行显示
+//  回到指定嘻哈值的文件     git reset --hard commitID
+//  再次查看历史  git reflog 
+//  再次跳转指定文件  git reset --hard commitID 
