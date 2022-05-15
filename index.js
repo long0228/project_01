@@ -12,3 +12,6 @@
 //  暂存已修改的文件 git add 文件名
 //  add添加文件追踪   缓存文件   解决冲突
 //  一键加入多个文件到暂存区  git add .
+//  git reset HEAD 要移除暂存区的文件名称
+//  git commit -a 自动把跟踪文件暂存起来一并提交 跳过暂存区
+//  是git add和git commit的符合写法  git commit -a -m '增加html内容和css背景颜色和js注释内容'
