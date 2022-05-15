@@ -22,5 +22,9 @@
 //  格式  git log -? 显示几行
 //       git log -2 --pretty=oneline  两次历史一行显示
 //  回到指定嘻哈值的文件     git reset --hard commitID
-//  再次查看历史  git reflog 
-//  再次跳转指定文件  git reset --hard commitID 
+//  再次查看历史  git reflog
+//  再次跳转指定文件  git reset --hard commitID
+
+
+//github
+//查看本地工程关联的远程仓库是哪个  git remote -v
